@@ -132,9 +132,9 @@
                     "rows": 6,
                     "columns": 1,
                     "columnNames": ["Technology"],
-                    "rowEntries": [{
-                        "entries": ["Spears and fire", "Archery, agriculture, and alchemy", "Walled cities and high magic", "Cannons and sailing ships", "Firearms and motor vehicles", "Computers and rudimentary spaceflight"]
-                    }]
+                    "rowEntries": [
+                        ["Spears and fire", "Archery, agriculture, and alchemy", "Walled cities and high magic", "Cannons and sailing ships", "Firearms and motor vehicles", "Computers and rudimentary spaceflight"]
+                    ]
                 }, {
                     "type": "table",
                     "tableName": "How I Left",
