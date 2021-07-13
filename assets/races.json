@@ -157,7 +157,7 @@
         "bookText": [
             {
                 "sectionName": "Orcs and Goblinoids in the 'Verse",
-                "sectionText": "fix this later"
+                "sectionText": ["fix this later"]
             }
         ]
     },
