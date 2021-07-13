@@ -2,6 +2,7 @@
     {
         "id": 0,
         "name": "Commercial Pilot",
+        "introText": ["For every ace fighter pilot or sky pirate, there are hundreds of completely unremarkable civilian pilots, who make their livings ferrying goods, people, and information between the stars. These commercial pilots may not have much combat experience, but they do spend a large portion of their lives at the controls, and surely know their ships better than anyone else.", "There are many reasons why a civilian pilot might become an adventurer. It is not uncommon for trained pilots to be dragooned into service in military fleets during times of crisis; likewise, pilots are often asked to step up to protect their ships, crews, and cargos from the many dangers of space. Some pilots enter the profession fully expecting a life of adventure, looking forward to the opportunities they will have to travel and explore."],
         "skills": ["Perception", "Piloting"],
         "tools": ["Ship maintenance tools"],
         "languages": [1, "Any one of your choice"],
