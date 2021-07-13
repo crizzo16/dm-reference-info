@@ -1,6 +1,7 @@
 [{
         "id": 0,
         "name": "Commercial Pilot",
+        "shortDesc": "Flying the 'verse",
         "introText": ["For every ace fighter pilot or sky pirate, there are hundreds of completely unremarkable civilian pilots, who make their livings ferrying goods, people, and information between the stars. These commercial pilots may not have much combat experience, but they do spend a large portion of their lives at the controls, and surely know their ships better than anyone else.", "There are many reasons why a civilian pilot might become an adventurer. It is not uncommon for trained pilots to be dragooned into service in military fleets during times of crisis; likewise, pilots are often asked to step up to protect their ships, crews, and cargos from the many dangers of space. Some pilots enter the profession fully expecting a life of adventure, looking forward to the opportunities they will have to travel and explore."],
         "skills": ["Perception", "Piloting"],
         "tools": ["Ship maintenance tools"],
@@ -36,6 +37,7 @@
     {
         "id": 1,
         "name": "Exile",
+        "shortDesc": "Forced away from your homeland",
         "introText": ["Sometimes seen as a fate worse than death, exile has long been a popular sanction for radicals, dissidents, and troublemakers. Exiling these people allows the authorities to remove a thorn from their sides without creating a martyr or having to keep the unwanted person in costly perpetual captivity. Many a coup or revolution has resulted in the leaders and courtiers of the old regime being consigned to exile, sometimes on a moon or neighboring planet, sometimes on the other side of the ‘verse.", "On occasion, a person may choose exile voluntarily, either as an alternative to something worse or because they desire time on the Frontier to grow and develop. An exile has a unique opportunity to absorb foreign cultures and contact émigré communities while rallying support remotely. Living in exile might provide benefits that aren't available back home, such as the freedom to pursue otherwise forbidden love interests or take advantage of more lenient tax policies, either of which could deliver the impetus to accept a self-imposed exile.", "Exiles take to adventuring for a number of reasons. For some, their exile was only temporary, and now they seek to embark on a dangerous journey home, while others might seek to foment rebellion in absentia so as to be welcomed as liberating heroes on their return. Some exiles are gripped by wanderlust, traveling the world with a small group of companions. The unluckiest of all, however, might find themselves unwelcome everywhere, with no choice other than to continue wandering forever."],
         "skills": ["Deception", "Survival"],
         "tools": ["None"],
@@ -71,6 +73,7 @@
     {
         "id": 2,
         "name": "Interpreter",
+        "shortDesc": "Good with alien cultures",
         "introText": ["In a galaxy with hundreds of systems, thousands of worlds, and a vast array of cultures, communication is a constant challenge. On the civilized worlds, maws, and other places where disparate peoples gather, professional interpreters are almost indispensable. Without them, business and diplomacy would be impossible, and misunderstandings and conflict would surely fill the void.", "Living in such vibrant places, it is only natural that interpreters should get caught up in the adventures and machinations of great people, and perhaps even rise to greatness themselves. The benefits they bring to an adventuring party, including information gathering and the ability to communicate with a wide range of individuals, are not to be sniffed at."],
         "skills": ["Insight", "Persuasion"],
         "tools": ["None"],
@@ -105,6 +108,7 @@
     {
         "id": 3,
         "name": "Low-Worlder",
+        "shortDesc": "Unfamiliar with technology",
         "introText": ["Low-worlders hail from planets that have never discovered the secrets of faster-than-light travel, planets from which the rest of the universe seems unknown and out of reach. The technology level of these planets range from as primitive as spears and bone tools, to as advanced as modern Earth. However, without the innovation of faster-than-light travel or the intervention of a galactic faction, the peoples of these planets will never join the galactic community.", "Low-worlders find themselves far from home through a variety of different means. Sometimes, their journeys are purposeful, a planet's first rocketborne steps to the stars above, but most often low-worlders stumble into the wider universe by sheer accident. Mishaps with powerful dimensional or teleportation magic, abductions, and stowing away on visiting spacecraft are all common stories among low-worlders.", "Universally, low-worlders are foreigners in the 'verse, discombobulated for several years as they learn the basics of their new surroundings. The dizzying array of races baffles them and the mundane prevalence of spacecraft and other technology astounds them. Despite their naivety with technology and galactic culture, low-worlders often possess finely honed skills forgotten by much of the wider 'verse: you can find no better tracker, fletcher, cobbler, or blacksmith than those from the low worlds."],
         "skills": ["Persuasion", "Survival"],
         "tools": ["One set of artisan's tools", "one type of gaming set"],
@@ -148,6 +152,7 @@
     {
         "id": 4,
         "name": "Ship's Doctor",
+        "shortDesc": "Medical experience, but not necessarily current",
         "introText": ["Aboard a ship, you must be prepared for anything. Whether exploring the far reaches of the ‘verse, where untold alien pathogens lurk, going to war in one of the great space fleets and staring down alien weapons, or simply dealing with the crew’s cybernetic implants going haywire, the ship’s doctor never knows what challenges they might face from day to day.", "Pragmatic out of necessity, but always seeking to provide the best possible care for their patients, shipboard medics are natural candidates to be made clerics of healing gods, and often possess an intellectual capacity well-suited to the demands of wizardry. Some, wishing to become self-sufficient in terms of potion supply, become interested in alchemy, while others make warlock pacts to gain more power with which to help more people. In this way, it's not uncommon for ships’ doctors to transition into a more intense adventuring life."],
         "skills": ["Investigation", "Medicine"],
         "tools": ["alchemist's supplies", "herbalism kit"],
@@ -182,6 +187,7 @@
     {
         "id": 5,
         "name": "Technologist",
+        "shortDesc": "Works with everything from engines to programming",
         "introText": ["The galaxy is filled with machines—machines that often break down. Technologists are experts in repairing, tuning, and decommissioning the devices that other people rely on for their employment, comfort, and safety. Therefore, they are in constant demand everywhere, from heavily-industrialized foundry worlds near the galactic core, to the Frontier worlds on the rim. Moreover, any ship of significant size is likely to employ engineers to keep it flying, regardless of where it finds itself in the ‘verse.", "Technologists come in all shapes and sizes, so there are lots of reasons why they might become adventurers. It could be that they are drawn to the challenge, or that they seek to uncover arcane secrets that can be incorporated into their machines. Some might have gotten their start as hired helpers for an established adventuring party, while a surprising number turn to druidry, having become so sick of malfunctioning technology that the only option is to cut it out of their lives altogether!"],
         "skills": ["Data", "Technology"],
         "tools": ["mechanist's tools", "one set of artisan's tools"],
