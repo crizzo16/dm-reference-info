@@ -31,7 +31,7 @@
         "featureText": "Your many hours of flying experience mean that all the standard checks and preparations involved in launching or docking a ship are firmly ingrained into your mind. Any simple maneuvers you undertake while piloting a ship go much quicker and smoother, with no risk of mishap.",
         "variantFeatureName": "",
         "variantFeatureText": "",
-        "suggestedCharacteristicsText": ["Pilots are, to some extend, orginary people with the kinds of personalities that you might find in any civilian profession. That doesn't tell the whole story, however, and there are some traits that speak to the unique culturs and lifestyles of interplanetary aircrew."],
+        "suggestedCharacteristicsText": "Pilots are, to some extend, orginary people with the kinds of personalities that you might find in any civilian profession. That doesn't tell the whole story, however, and there are some traits that speak to the unique culturs and lifestyles of interplanetary aircrew.",
         "personalityEntries": ["I fly by the seat of my pants.", "I always keep a photograph of my family in the cockput.", "I prefer to be in control of my own destiny, rather than in someone else's hands.", "I live fast!", "Multitasking is no problem for me.", "I have very steady hands.", "I can recognize a ship a mile away just from its movements.", "I don't feel entirely comfortable on dry land."],
         "idealEntries": ["<span style='font-weight:bold'>Freedom.</span> I became a pilot to loose myself from earthly bonds. (Chaotic)", "<span style='font-weight:bold'>Thrill.</span> I do whatever delivers maximum pleasure and enjoyment for myself. (Evil)", "<span style='font-weight:bold'>Service.</span> All I want is to get my cargo safely to its destination, and to get paid fairly for my work. (Lawful)", "<span style='font-weight:bold'>Prestige.</span> I value the respect of my peers more than anything else. (Any)", "<span style='font-weight:bold'>Caring.</span> My objective i to protect those in my care. (Good)", "<span style='font-weight:bold'>Stability.</span> I'm just trying to get by, without getting in anyone's way. (Neutral)"],
         "bondEntries": ["I remain very close to my buddies from flight school.", "My copilot is my best friend. We always have each other's backs.", "I worked for a galaxy-spanning company and often run into former colleagues.", "I know a couple of shady types who're happy to buy smuggled goods.", "I have family back on my home planet that I try to stay in touch with.", "My flying skills saved the life of a powerful dignitary who still owes me a favor."],
@@ -68,6 +68,151 @@
         "featureText": "You keep in touch with a network of exiles and expatriates, who possess an eclectic mix of skills and the durable spirit of pioneers. If you need to find someone with an unusual or specialized skill (such as art forgery, translation of ancient languages, or poison-brewing), you likely know where to find them.",
         "variantFeatureName": "Radical Sympathizers",
         "variantFeatureText": "As a prominent figurehead for a group of religious, political, or ethnic radicals, you are often able to find people who sympathize with your situation. When you employ hirelings, they may offer you better rates, fanatical loyalty, or enhance services.",
-        "suggestedCharacteristicsText": ["Being exiled is a deeply painful experience, and life as a stateless <span style='font-style:italic'>persona non grata</span> is extremely challenging. Such a trial is sure to leave some marks on the exile's personality."]
+        "suggestedCharacteristicsText": "Being exiled is a deeply painful experience, and life as a stateless <span style='font-style:italic'>persona non grata</span> is extremely challenging. Such a trial is sure to leave some marks on the exile's personality.",
+        "personalityEntries": ["I jump whenever anyone knocks on my door.", "I stand by my principles, rather than compromising them.", "Hand-written latters are my preferred means of communication.", "I am fascinated by different cultures", "I sometimes become pensive and withdrawn", "I have a lot of interesting and unusual friends", "i often reminisce about my years before exile", "I write a lot of poetry in my spare time."],
+        "idealEntries": ["Homecoming. I hope to return to my homeland one day. (Any)", "Liberty, I will live the way I want to! (Chaotic)", "Peace. I will make the most of my time in exile, living a peacable life. (Lawful)", "Leadership. It is on me to lead my people through the wilderness (Good)", "Revenge. I must take revenge on those who cast me out! (Evil)", "Refuge. In these dangerous timae, I must focus solely on survival. (Neutral)"],
+        "bondEntries": ["I have made many good friends in the émigré community.", "I still write to my family back home.", "People count on me as a symbol of resistance.", "I have started a new family in my adoptive homeland.", "I cannot return home until I have found what I am looking for.", "I am still wanted by the courts."],
+        "flawEntries": ["I have trouble keeping my big mouth shut, and often end up ranting against my opponents.", "I get in trouble with the law wherever I go.", "I can't seem to put down roots or form lasting connectinos anywhere.", "My hatred for the people who exiled me sometimes crowds out reason in my head.", "I prefer to work alone, and rarely seek compromise with others.", "I've been away so long, I have lost touch with my family/culture/language."]
+    },
+    {
+        "id": 2,
+        "name": "Interpreter",
+        "introText": ["In a galaxy with hundreds of systems, thousands of worlds, and a vast array of cultures, communication is a constant challenge. On the civilized worlds, maws, and other places where disparate peoples gather, professional interpreters are almost indispensable. Without them, business and diplomacy would be impossible, and misunderstandings and conflict would surely fill the void.", "Living in such vibrant places, it is only natural that interpreters should get caught up in the adventures and machinations of great people, and perhaps even rise to greatness themselves. The benefits they bring to an adventuring party, including information gathering and the ability to communicate with a wide range of individuals, are not to be sniffed at."],
+        "skills": ["Insight", "Persuasion"],
+        "tools": ["None"],
+        "languages": [2, "Any two of your choice"],
+        "equipment": ["a phrasebook", "identification documents", "a small recording device", "a set of fine clothes"],
+        "money": 10,
+        "text": [
+            {
+                "sectionName": "Role",
+                "sectionText": [
+                    "You could have worked in several different environments as an interpreter. Choose one or roll on the table below:","When you choose the pilot background, you should consider what sorts of ships you have flown in the past, and perhaps think of names for some of them. Random names can be generated by rolling two d20s and combining the results using the tables below:", {
+                        "type": "table",
+                        "tableName": "",
+                        "rows": 8,
+                        "columns": 1,
+                        "columnNames": ["Role"],
+                        "rowEntries": [{
+                            "entries": ["Diplomatic aide", "Maw station staff", "Personal assistant", "Protocol servitor", "Interplanetary legal counsel", "Document translator", "Historian/antiquarian/scholar of linguistics", "Naval communications officer"]
+                        }]
+                    }
+                ]
+            }
+        ],
+        "featureName": "Flawless Protocol",
+        "featureText": "You have memorized a vast library of basic greetings, handshaking techniques, and polite gestures from a thousand different cultures. You almost always know the correct way to address unusual aliens or foreign dignitaries and can even make some educated guesses, good enough to avoid giving offence, when it comes to strange or uncontacted peoples.",
+        "variantFeatureName": "",
+        "variantFeatureText": "",
+        "suggestedCharacteristicsText": "Of all the people in the galaxy, very few spend more time around people than interpreters. Consequently, they tend to possess extremely refined social skills and personalities that revolve around people and relationships.",
+        "personalityEntries": ["I sometimes switch language mid-sentence without noticing.", "I love to gossip.", "I use long, complicated words that few people understand.", "I get bored quickly when I'm on my own.", "I have a fondness for puns and wordplay.", "I enjoy learning about other cultures.", "I stay up to date with all the latest political developments.", "My typing speed is incredible."],
+        "idealEntries": ["Accuracy. I aim to be precise and clear in everything I do. (Lawful)", "Neutrality. The principles of neutrality and non-interference are critical to me. (Neutral)", "Diplomacy. Nothing makes me happier than brokering peace by helping people to understand one another better. (Good)", "Friendship. My closest pals are always my highest priority. (Any)", "Manipulation. I seek to pull on strings behind the scenes, for my own benefit. (Evil)", "Comedy. I live to tell jokes and play tricks on people! (Chaotic)"],
+        "bondEntries": ["I am gradually translating a massive, multi-volume work from a distant planet.", "I am on a quest to find the last living speaker of an ancient language, so that it can be preserved.", "I have a friend on every maw.", "I did some interpreting for a famous person, and made contact in high places.", "I have been asked to act as a go-between by two warring factions.", "I will do whatever my guildmaster asks."],
+        "flawEntries": ["I can't keep my big mouth shut, even about important secrets.", "I get anxious if I spend too much time alone.", "I am a compulsive liar.", "I am often too passive and slow to take action.", "I am practically innumerate.", "Powerful people are out to get me."]
+    },
+    {
+        "id": 3,
+        "name": "Low-Worlder",
+        "introText": ["Low-worlders hail from planets that have never discovered the secrets of faster-than-light travel, planets from which the rest of the universe seems unknown and out of reach. The technology level of these planets range from as primitive as spears and bone tools, to as advanced as modern Earth. However, without the innovation of faster-than-light travel or the intervention of a galactic faction, the peoples of these planets will never join the galactic community.", "Low-worlders find themselves far from home through a variety of different means. Sometimes, their journeys are purposeful, a planet's first rocketborne steps to the stars above, but most often low-worlders stumble into the wider universe by sheer accident. Mishaps with powerful dimensional or teleportation magic, abductions, and stowing away on visiting spacecraft are all common stories among low-worlders.", "Universally, low-worlders are foreigners in the 'verse, discombobulated for several years as they learn the basics of their new surroundings. The dizzying array of races baffles them and the mundane prevalence of spacecraft and other technology astounds them. Despite their naivety with technology and galactic culture, low-worlders often possess finely honed skills forgotten by much of the wider 'verse: you can find no better tracker, fletcher, cobbler, or blacksmith than those from the low worlds."],
+        "skills": ["Persuasion", "Survival"],
+        "tools": ["One set of artisan's tools", "one type of gaming set"],
+        "languages": [0, "None"],
+        "equipment": ["a token of your homeworld", "a set of common clothes", "a container holding currency from your homeworld (worth 0 gp)"],
+        "money": 0,
+        "text": [
+            {
+                "sectionName": "Homeworld",
+                "sectionText": [
+                    "You can use the following tables to decide on the technology level of the world from which you originated and to determine how you left it. More information on how to build a world can be found in a different tab.", {
+                        "type": "table",
+                        "tableName": "I come from a world whose greatest technology is _____.",
+                        "rows": 6,
+                        "columns": 1,
+                        "columnNames": ["Technology"],
+                        "rowEntries": [{
+                            "entries": ["Spears and fire", "Archery, agriculture, and alchemy", "Walled cities and high magic", "Cannons and sailing ships", "Firearms and motor vehicles", "Computers and rudimentary spaceflight"]
+                        }]
+                    }, {
+                        "type": "table",
+                        "tableName": "How I Left",
+                        "rows": 6,
+                        "columns": 1,
+                        "columnNames": ["Technology"],
+                        "rowEntries": [{
+                            "entries": ["I stowed away on a spaceship that visited (or crash-landed on) my planet.", "I left through a terrible mishap with a powerful teleportation spell.", "I was abducted.", "I left aboard a rudimentary spacecraft which then slipped through a wormhole.", "I never left; rather, I traveled in time.", "I escaped my planet moments before its destruction."]
+                        }]
+                    }
+                ]
+            }
+        ],
+        "featureName": "Low-World Charm",
+        "featureText": "You have kinship with other low-worlders, especially in the rare cases that you meet someone from your homeworld. Other low-worlders will take a liking to you and will generally honor one reasonable favor you ask, as long as a similar favor is returned later.",
+        "variantFeatureName": "",
+        "variantFeatureText": "",
+        "suggestedCharacteristicsText": "Low-worlders are as diverse as the worlds they hail from, but all are strangers to the 'verse. Each of them, however, knows that their position is utterly unique; they are among the very few from their world to have stepped out among the stars, a fact they will likely wear with pride, even as they are confused and awe-struck by their new setting."
+    },
+    {
+        "id": 4,
+        "name": "Ship's Doctor",
+        "introText": ["Aboard a ship, you must be prepared for anything. Whether exploring the far reaches of the ‘verse, where untold alien pathogens lurk, going to war in one of the great space fleets and staring down alien weapons, or simply dealing with the crew’s cybernetic implants going haywire, the ship’s doctor never knows what challenges they might face from day to day.", "Pragmatic out of necessity, but always seeking to provide the best possible care for their patients, shipboard medics are natural candidates to be made clerics of healing gods, and often possess an intellectual capacity well-suited to the demands of wizardry. Some, wishing to become self-sufficient in terms of potion supply, become interested in alchemy, while others make warlock pacts to gain more power with which to help more people. In this way, it's not uncommon for ships’ doctors to transition into a more intense adventuring life."],
+        "skills": ["Investigation", "Medicine"],
+        "tools": ["alchemist's supplies", "herbalism kit"],
+        "languages": [0, "None"],
+        "equipment": ["a healer's kit", "a book of physiology", "a needle and string", "a doctor's uniform"],
+        "money": 10,
+        "text": [
+            {
+                "sectionName": "Medical Training",
+                "sectionText": [
+                    "Ny education, doctors tend to be experts in one branch of medicine, though serving on a ship means there is no one else to call on if something outside of their expertise should arise, so most ships' doctors possess broad medical skills. Choose a speciality or roll on the table below:", {
+                        "type": "table",
+                        "tableName": "",
+                        "rows": 8,
+                        "columns": 1,
+                        "columnNames": ["Speciality"],
+                        "rowEntries": [{
+                            "entries": ["Infectious diseases", "Neurosurgery", "Alien lifeforms", "Orthopedic surgery", "Ophthalmology", "Cardiothoracic surgery", "Psychiatry", "Plastic/cyborg surgery"]
+                        }]
+                    }
+                ]
+            }
+        ],
+        "featureName": "Xenobiology",
+        "featureText": "Having seen many strange things on your travels, you have developed an instinctive understanding of alien biologies. Whenever you encounter a creature you have never seen before, you are able to make a few observations and deductions about it, gaining an idea of how dangerous it could be, what its weaknesses might be, or how it would behave in response to a given stimulus.",
+        "variantFeatureName": "",
+        "variantFeatureText": "",
+        "suggestedCharacteristicsText": "While medical practice often attracts analytical, gentle people, the life-shaping events that medics experience often have a lasting impact on their outlook."
+    },
+    {
+        "id": 5,
+        "name": "Technologist",
+        "introText": ["The galaxy is filled with machines—machines that often break down. Technologists are experts in repairing, tuning, and decommissioning the devices that other people rely on for their employment, comfort, and safety. Therefore, they are in constant demand everywhere, from heavily-industrialized foundry worlds near the galactic core, to the Frontier worlds on the rim. Moreover, any ship of significant size is likely to employ engineers to keep it flying, regardless of where it finds itself in the ‘verse.", "Technologists come in all shapes and sizes, so there are lots of reasons why they might become adventurers. It could be that they are drawn to the challenge, or that they seek to uncover arcane secrets that can be incorporated into their machines. Some might have gotten their start as hired helpers for an established adventuring party, while a surprising number turn to druidry, having become so sick of malfunctioning technology that the only option is to cut it out of their lives altogether!"],
+        "skills": ["Data", "Technology"],
+        "tools": ["mechanist's tools", "one set of artisan's tools"],
+        "languages": [0, "None"],
+        "equipment": ["a set of tinker's tools", "a broken piece of a mysterious machine", "a large pipe wrench (counts as a mace)", "a set of common clothes"],
+        "money": 10,
+        "text": [
+            {
+                "sectionName": "Specialism",
+                "sectionText": [
+                    "Most technologists are highly trained in the workings of a handful of systems and have only theoretical knowledge of others. Decide which machines you have worked on, or roll on the table below:", {
+                        "type": "table",
+                        "tableName": "",
+                        "rows": 10,
+                        "columns": 1,
+                        "columnNames": ["Specialism"],
+                        "rowEntries": [{
+                            "entries": ["Dark Matter Engines", "Blasters", "Arcane databases", "Power systems", "Shield generators", "Automatons and construct cores", "Cranes and docking systems", "Climate control systems", "Terrestrial/atmospheric vehicles", "Industrial machinery"]
+                        }]
+                    }
+                ]
+            }
+        ],
+        "featureName": "Vent Tape and Elbow Grease",
+        "featureText": "Invariably, technologists find themselves needing to repair things without access to the proper tools, training, or spare parts, having to make do with temporary stop-gap measures and whatever they happen to have on hand. Your experience with this means that you can often cobble something together to keep a damaged system working for a few crucial minutes or hours, as long as you focus all of your attention onto it.",
+        "variantFeatureName": "",
+        "variantFeatureText": "",
+        "suggestedCharacteristicsText": "Technologists are a breed apart, often preferring to work with machines than with people. Having to blend technical knowledge, manual skills, and acertain amount of creativity in order to succeed in their roles means that they are sometimes rather eccentric in character."
     }
 ]
